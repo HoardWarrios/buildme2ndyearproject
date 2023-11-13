@@ -1,0 +1,40 @@
+.navbar {
+  margin: 10px;
+  background: #FFF;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  ;
+}
+
+.logo {
+  font-size: 2em;
+}
+
+.middle {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.middle a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.search-icon,
+.profile-icon {
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+

@@ -1,0 +1,65 @@
+.header {
+    padding: 50px 100px;
+    margin: 10px;
+    height: 549px;
+   
+    background: #FFF5F5;
+    align-items: center;
+    
+  }
+  
+  .parts {
+    justify-content: space-between;
+
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .content {
+    transition: all 0.3s ease, border-radius 0.1s ease;
+  }
+  
+  h4 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 106.687%; /* 56.544px */
+    
+  }
+  
+  p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    width: 660px;
+  }
+
+  
+  button {
+    background-color: #020051 ;
+    color: white;
+    width: 195.714px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+    margin-top: 100px;
+  }
+  
+  .right-image {
+
+    height: 419px;
+    flex-shrink: 0;
+       
+  }
+
+  @media screen and (min-width: 768px) {
+    .parts {
+        flex-direction: row; /* Switch back to horizontal layout on larger screens */
+        justify-content: space-between; /* Add space between items on larger screens */
+        column-gap: 20px; /* Adjust the gap between items on larger screens */
+    }
+}
